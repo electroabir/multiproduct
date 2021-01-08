@@ -305,6 +305,9 @@ nav-tabs .nav-item.show .nav-link,
         box-shadow: none;
     }
 
+.main-title-text{
+font-size: 18px;
+}
 
 
 }
