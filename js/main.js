@@ -10,3 +10,12 @@
 
 //     });
 // });
+
+// Product menu Transition
+var btnForMenu = document.querySelector(".btn-target");
+var Menu = document.querySelector(".menu-collapse");
+var listGroup = document.querySelector('.ttt')
+
+btnForMenu.addEventListener("click", function() {
+    listGroup.classList.toggle("menu-collapse");
+})
