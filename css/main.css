@@ -294,6 +294,10 @@ nav-tabs .nav-item.show .nav-link,
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
+.ttt {
+    transition: all 0.5s linear;
+}
+
 
 
 @media (max-width: 767px) {
@@ -308,6 +312,12 @@ nav-tabs .nav-item.show .nav-link,
 .main-title-text{
 font-size: 18px;
 }
+    
+    .menu-collapse {
+        position: absolute;
+        transform: translateX(-400px);
+        transition: all 0.5s linear;
+    }
 
 
 }
